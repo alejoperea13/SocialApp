@@ -15,6 +15,10 @@
 		A93A595E1E1E0D5900B86FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93A595C1E1E0D5900B86FE0 /* LaunchScreen.storyboard */; };
 		A93A59661E1E0F0300B86FE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A93A59651E1E0F0300B86FE0 /* GoogleService-Info.plist */; };
 		A93A596B1E1E204B00B86FE0 /* RoundEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A596A1E1E204B00B86FE0 /* RoundEdges.swift */; };
+		A93A596D1E21EFFF00B86FE0 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A596C1E21EFFF00B86FE0 /* FancyView.swift */; };
+		A93A59701E21F09E00B86FE0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A596F1E21F09E00B86FE0 /* Constants.swift */; };
+		A93A59721E21F43600B86FE0 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A59711E21F43600B86FE0 /* RoundButton.swift */; };
+		A93A59741E21F5EA00B86FE0 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A59731E21F5EA00B86FE0 /* FancyField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		A93A595F1E1E0D5900B86FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A93A59651E1E0F0300B86FE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A93A596A1E1E204B00B86FE0 /* RoundEdges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundEdges.swift; sourceTree = "<group>"; };
+		A93A596C1E21EFFF00B86FE0 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		A93A596F1E21F09E00B86FE0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A93A59711E21F43600B86FE0 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		A93A59731E21F5EA00B86FE0 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		BA63738C59F4D2EC9EFEB764 /* Pods-SocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +81,7 @@
 		A93A59521E1E0D5900B86FE0 /* SocialApp */ = {
 			isa = PBXGroup;
 			children = (
+				A93A596E1E21F07B00B86FE0 /* Utilities */,
 				A93A59671E1E113B00B86FE0 /* Model */,
 				A93A59691E1E114900B86FE0 /* Controller */,
 				A93A59681E1E114400B86FE0 /* View */,
@@ -97,6 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				A93A596A1E1E204B00B86FE0 /* RoundEdges.swift */,
+				A93A596C1E21EFFF00B86FE0 /* FancyView.swift */,
+				A93A59711E21F43600B86FE0 /* RoundButton.swift */,
+				A93A59731E21F5EA00B86FE0 /* FancyField.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -107,6 +119,14 @@
 				A93A59551E1E0D5900B86FE0 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		A93A596E1E21F07B00B86FE0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A93A596F1E21F09E00B86FE0 /* Constants.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 		F9B30CC0D667EF245E59D380 /* Pods */ = {
@@ -243,8 +263,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93A59721E21F43600B86FE0 /* RoundButton.swift in Sources */,
+				A93A59701E21F09E00B86FE0 /* Constants.swift in Sources */,
 				A93A59561E1E0D5900B86FE0 /* SignInVC.swift in Sources */,
 				A93A596B1E1E204B00B86FE0 /* RoundEdges.swift in Sources */,
+				A93A596D1E21EFFF00B86FE0 /* FancyView.swift in Sources */,
+				A93A59741E21F5EA00B86FE0 /* FancyField.swift in Sources */,
 				A93A59541E1E0D5900B86FE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
