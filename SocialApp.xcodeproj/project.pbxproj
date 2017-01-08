@@ -14,6 +14,7 @@
 		A93A595B1E1E0D5900B86FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93A595A1E1E0D5900B86FE0 /* Assets.xcassets */; };
 		A93A595E1E1E0D5900B86FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93A595C1E1E0D5900B86FE0 /* LaunchScreen.storyboard */; };
 		A93A59661E1E0F0300B86FE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A93A59651E1E0F0300B86FE0 /* GoogleService-Info.plist */; };
+		A93A596B1E1E204B00B86FE0 /* RoundEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A596A1E1E204B00B86FE0 /* RoundEdges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A93A595D1E1E0D5900B86FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A93A595F1E1E0D5900B86FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A93A59651E1E0F0300B86FE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A93A596A1E1E204B00B86FE0 /* RoundEdges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundEdges.swift; sourceTree = "<group>"; };
 		BA63738C59F4D2EC9EFEB764 /* Pods-SocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 		A93A59681E1E114400B86FE0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A93A596A1E1E204B00B86FE0 /* RoundEdges.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A93A59561E1E0D5900B86FE0 /* SignInVC.swift in Sources */,
+				A93A596B1E1E204B00B86FE0 /* RoundEdges.swift in Sources */,
 				A93A59541E1E0D5900B86FE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

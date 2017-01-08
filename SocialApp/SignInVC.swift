@@ -11,6 +11,7 @@ import UIKit
 class SignInVC: UIViewController {
 
     override func viewDidLoad() {
+        UIApplication.shared.statusBarStyle = .lightContent
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
